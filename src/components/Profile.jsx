@@ -1,8 +1,9 @@
 import React from "react";
+import s from "./Profile.module.css";
 const Profile = () =>{
-    return         <div className='content'>
+    return         <div className={s.content}>
     <div>
-        <img src=''></img>
+        <img src='https://c.wallhere.com/photos/fc/9a/1366x768_px_Canada_landscape_mountain_stars_Trees-1080526.jpg!d'></img>
     </div>
     <div>
         ava+description
